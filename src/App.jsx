@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MainLayout from "./layouts/MainLayout";
 import Homepages from "./pages/Homepages";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import NotFound from "./components/NotFound";
-import MainLayout from "./layouts/MainLayout";
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
