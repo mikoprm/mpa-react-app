@@ -1,0 +1,5 @@
+.notFound {
+    display: grid;
+    place-items: center;
+    gap: var(--clamp-2-base);
+}
