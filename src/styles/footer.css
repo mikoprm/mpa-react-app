@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--dark-base);
+    color: var(--light-base);
+}
+
+.footer__wrapper {
+    max-inline-size: min(100% - clamp(.5rem, 5vw, 8rem), 81.25rem);
+    margin-inline: auto;
+    padding: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}

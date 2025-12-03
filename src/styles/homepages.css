@@ -1,0 +1,4 @@
+.homepages {
+    display: grid;
+    gap: var(--size-3-base);
+}
