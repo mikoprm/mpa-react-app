@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/notFoundpage.css"
+import "../styles/notFound.css";
 
-const NotFoundPage = () => {
+const NotFound = () => {
   return (
     <section aria-labelledby="notFound">
       <div className="wrapper-contents notFound">
@@ -18,4 +18,4 @@ const NotFoundPage = () => {
   );
 };
 
-export default NotFoundPage;
+export default NotFound;

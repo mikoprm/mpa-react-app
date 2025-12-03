@@ -5,7 +5,7 @@ import Homepages from "./pages/Homepages";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import NotFoundPage from "./pages/NotFoundPage";
+import NotFound from "./components/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
@@ -20,7 +20,7 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="*" element={<NotFoundPage />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>
