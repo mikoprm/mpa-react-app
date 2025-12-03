@@ -37,7 +37,7 @@ const Form = () => {
               required
             ></textarea>
           </div>
-          <button type="submit" className="button-small contact__btn">
+          <button type="submit" className="contact__btn">
             SEND IT
           </button>
         </fieldset>
