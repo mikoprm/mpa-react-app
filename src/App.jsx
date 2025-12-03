@@ -5,7 +5,7 @@ import Homepages from "./pages/Homepages";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-import NotFound from "./components/Notfound";
+import NotFound from "./components/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
