@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/notFound.css";
 
 const NotFound = () => {
@@ -10,9 +10,9 @@ const NotFound = () => {
           404 - Page Not Found
         </h1>
         <p>The page you are looking for does not exist.</p>
-        <NavLink to="/" className="btn">
+        <Link to="/" className="btn">
           Go to Homepage
-        </NavLink>
+        </Link>
       </div>
     </section>
   );
