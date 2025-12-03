@@ -119,6 +119,7 @@ html {
 
 body {
   background-color: var(--light-accent);
+  color: var(--dark-mode);
   max-inline-size: 90rem;
   margin-inline: auto;
   transition: var(--transition);
